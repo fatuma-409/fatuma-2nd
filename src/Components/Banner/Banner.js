@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import RequestMovies from '../../Request/Request';
+import Request from '../../Request/Request';
 import axios from 'axios';
 import { Movie } from '@mui/icons-material';
 
@@ -8,7 +8,7 @@ const Banner = () => {
   const movie = movies[Math.floor(Math.random() * movies.length)];
 
   useEffect(() => {
-    axios.get(RequestMovies).then((res) => {
+    axios.get(Request?.RequestMovies).then((res) => {
       setMovies(res.data.results);
     });
   }, []);

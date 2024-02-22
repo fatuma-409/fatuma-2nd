@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       
-      <HomeList title="movie" fetchurl={Request} />
+      <HomeList title="movie" fetchurl={Request.RequestMovies} />
       <HomeList title="tv" fetchurl={Request.Requesttv} />
       <HomeList title="now playing" fetchurl={Request.Requestnowplaying} />
       <HomeList title="populor" fetchurl={Request.Requestpopulor} />
