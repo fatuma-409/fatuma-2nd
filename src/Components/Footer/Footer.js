@@ -1,36 +1,47 @@
-import React from 'react'
-import "./Footer.css"
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import FacebookOutlinedIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+
 const Footer = () => {
   return (
-    <div className='footer_outer_container'>
- <div className=' footer_inner_container'>
-    <div className='footer_icon'>
-        <FacebookOutlinedIcon />
-        <InstagramIcon/>
-        <YouTubeIcon/>
-    </div>
-    <div  className='footer_data'>
+    <div className='footer_outer_container flex gap-8 justify-center items-center bg-black text-white'>
+     
         <div>
-            <ul>
-                <li>audio Description</li>
-                <li>Invester Relations</li>
-                <li>legal notice</li>
-            </ul>
+          <FacebookOutlinedIcon/>
+          <InstagramIcon />
+          <YouTubeIcon />
+          <ul>
+          <li>Audio Description</li>
+          <li>Investor Relations</li>
+          <li>Legal Notice</li>
+        </ul>
         </div>
-        <div>
-            <ul>
-               <li>Media Center</li>
-               <li>Privacy</li>
-               <li>Contact Us</li>
-            </ul>
-        </div>
-    </div>
- </div>
-</div>
-  )
-}
+       
+      <div className="flex flex-col">
+        <ul>
+          <li>Help center</li>
+          <li>Jobs</li>
+          <li>Cookie preference</li>
+        </ul>
+      </div>
 
-export default Footer
+      <div className="flex flex-col">
+        <ul>
+          <li>Gift Card</li>
+          <li>Term of Use</li>
+          <li>Corporate Information</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col">
+        <ul>
+          <li>Media Center</li>
+          <li>Privacy</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
