@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer_outer_container flex gap-8 justify-center items-center bg-black text-white'>
      
-        <div>
+        <div className='TEXT font-bold'>
           <FacebookOutlinedIcon/>
           <InstagramIcon />
           <YouTubeIcon />
