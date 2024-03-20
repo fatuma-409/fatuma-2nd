@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fatuma-2nd/static/css/main.66bd4ac6.css",
+    "main.js": "/fatuma-2nd/static/js/main.17c2862e.js",
+    "index.html": "/fatuma-2nd/index.html",
+    "main.66bd4ac6.css.map": "/fatuma-2nd/static/css/main.66bd4ac6.css.map",
+    "main.17c2862e.js.map": "/fatuma-2nd/static/js/main.17c2862e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66bd4ac6.css",
+    "static/js/main.17c2862e.js"
+  ]
+}
